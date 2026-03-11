@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-body bg-sand;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-heading;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-block bg-ocean text-white px-8 py-4 tracking-widest text-xs uppercase font-semibold transition-all duration-300 hover:bg-ocean-light;
+  }
+
+  .btn-outline {
+    @apply inline-block border border-white text-white px-8 py-4 tracking-widest text-xs uppercase font-semibold transition-all duration-300 hover:bg-white hover:text-ocean;
+  }
+
+  .btn-outline-dark {
+    @apply inline-block border border-ocean text-ocean px-8 py-4 tracking-widest text-xs uppercase font-semibold transition-all duration-300 hover:bg-ocean hover:text-white;
+  }
+
+  .section-label {
+    @apply text-gold tracking-widest text-xs uppercase font-semibold mb-4;
+  }
+
+  .nav-link {
+    @apply text-xs tracking-widest uppercase font-medium text-ocean transition-colors duration-200 hover:text-gold;
+  }
+
+  .listing-card {
+    @apply bg-white overflow-hidden cursor-pointer;
+  }
+
+  .listing-card:hover .listing-img {
+    transform: scale(1.05);
+  }
+
+  .listing-img {
+    @apply w-full h-64 object-cover;
+    transition: transform 0.5s ease;
+  }
+}
