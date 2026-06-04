@@ -1,5 +1,5 @@
 {
-  "name": "gray-realtor-website",
+  "name": "corbina-website",
   "version": "1.0.0",
   "scripts": {
     "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
