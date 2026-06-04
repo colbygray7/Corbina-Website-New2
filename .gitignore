@@ -2,5 +2,6 @@ node_modules/
 .claude/
 *.png
 !images/*.png
+!logo-exports/*.png
 .DS_Store
 ._*
