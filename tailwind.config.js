@@ -16,7 +16,7 @@ module.exports = {
         muted: '#6B7280',
       },
       fontFamily: {
-        heading: ['Syne', 'sans-serif'],
+        heading: ['Outfit', 'sans-serif'],
         sans: ['Space Grotesk', 'sans-serif'],
         display: ['Cormorant Garamond', 'serif'],
       },
